@@ -1,0 +1,128 @@
+.container {  
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    width: 100vw;
+    height: 100vh;
+    border: 1px solid black
+ }
+
+.boxes {
+    width: 100vw;
+    height: auto;
+    position: relative;
+ }
+
+#box1 { 
+    height: 4rem;
+    background-color: white;
+}
+
+#box2 { 
+    height: auto;
+}
+
+#box3 { 
+    height: auto;
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+
+#box4 { 
+    height: auto;
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+#box5 { 
+    display: inline-block;
+    width: 60%;
+}
+
+#box6 { 
+    display: inline-block;
+    height: 20px; 
+    width: 200px;
+    font-size: 25px;
+    background-color: teal;
+    border-radius: 0;
+    transition-property: width, height;
+    transition-duration: 3s;
+}
+
+#box6:hover {
+    background-color: teal;
+    opacity: .6;
+    transform: translateX (100px);
+    width: 500px;
+    height: 80px;
+    border-radius: .5em .5em .5em .5em;
+}
+
+#box7 { 
+    text-align: center;
+    padding-bottom: 0px
+}
+
+@font-face {
+    font-family: custom;
+    src: url(./Stadium.otf);
+}
+
+.image {
+    opacity: 0.4;
+    width: 100%;
+    max-height: inherit;
+    overflow: hidden;
+}
+
+.title {
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    font-family: custom;
+    font-size: 8rem;
+    color: white;
+    text-shadow: 2px 6px black;
+}
+
+.subscription {
+    display: flex;
+    justify-content: center;
+}
+
+.classes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    padding: 2px;
+    text-decoration: none;
+  }
+
+a.classes {
+    text-decoration: none;
+    color: black;
+    transition-property: color;
+    transition-duration: 3s;
+}
+
+a.classes:hover {
+        color: white;
+}
+
+a:active {
+    font-weight: bold;
+}
+
+#email {
+    width: 40%;
+}
+
+.copyright {
+    font-size: 10px;
+}
+
