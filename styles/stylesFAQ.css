@@ -30,6 +30,7 @@
     margin-top: 10px;
     margin-right: 20px;
     padding: 20px;
+    text-align: center;
 }
 
 #box3 { 
@@ -49,10 +50,6 @@
     padding: 10px;
     text-align: center;;
     color: black;
-}
-
-.table table-striped {
-    border: 1px solid black;
 }
 
 #dog {
