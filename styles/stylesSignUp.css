@@ -27,8 +27,6 @@
 
 #box3 { 
     display: inline-block;
-    padding-bottom: 0px;
-    flex-wrap: wrap;
     width: auto;
     padding: 10px;
     text-align: center;;
